@@ -4,4 +4,5 @@ import app from './app.js';
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer(app);
+// eslint-disable-next-line no-console
 server.listen(PORT, () => console.log(`Started listening on ${PORT}`));
